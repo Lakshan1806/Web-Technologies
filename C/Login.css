@@ -1,0 +1,132 @@
+body {
+    background-color: black;
+    font-family: sans-serif;
+    background-image: url("../Image/Background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+form {
+    width: 300px;
+    background-color: black;
+    padding: 15px 40px 40px 40px;
+    border: 3px solid #ffa500;
+    margin: 50px auto 0;
+    border-radius: 10px;
+    color: #ffa500;
+}
+
+label {
+    margin-bottom: 5px
+}
+
+h1 {
+    color: #ffa500;
+}
+
+.textspace {
+    border-radius: 5px;
+    border: 3px solid #ffa500;
+    width: 280px;
+    height: 25px;
+}
+
+.texttitle {
+    font-size: 12px;
+}
+
+#login {
+    text-align: center;
+    margin: 5px;
+    border: 3px solid #ffa500;
+    background-color: rgba(255, 165, 0, 1);
+    border-radius: 25px;
+    padding: 12px;
+}
+
+#logintext {
+    font-family: sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: black;
+    border: 3px solid #ffa500;
+    background-color: rgba(255, 165, 0, 1);
+    border-radius: 25px;
+    padding: 0%;
+    cursor: pointer;
+}
+
+
+
+#fb {
+    display: block;
+    text-align: center;
+    font-family: sans-serif;
+    margin: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+    text-transform: capitalize;
+    color: white;
+    border: 3px solid #1a6ed8;
+    background-color: rgba(26, 110, 216, 1);
+    border-radius: 25px;
+    padding: 12px;
+}
+
+#fb:hover {
+    color: #1a6ed8;
+    background-color: white;
+}
+
+#google {
+    display: block;
+    text-align: center;
+    font-family: sans-serif;
+    margin: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+    text-transform: capitalize;
+    color: black;
+    border: 3px solid white;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 25px;
+    padding: 12px;
+}
+
+#google:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+#apple {
+    display: block;
+    text-align: center;
+    font-family: sans-serif;
+    margin: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+    text-transform: capitalize;
+    color: black;
+    border: 3px solid white;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 25px;
+    padding: 12px;
+}
+
+#apple:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+p {
+    color: white;
+}
+
+#signup {
+    color: #ffa500;
+    text-decoration: none;
+    font-weight: bold;
+}
