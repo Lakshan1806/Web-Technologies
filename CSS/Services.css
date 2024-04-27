@@ -1,0 +1,20 @@
+.servicetitle {
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.servicetext {
+    color: white;
+    
+    
+    font-family: sans-serif;
+    font-size: 17px;
+}
+
+.service {
+    color: #ffa500;
+    display: block;
+    text-align: center;
+    font-size: 40px;
+}
