@@ -6,47 +6,37 @@ body {
 }
 
 .navbar1 {
-    position: static;
+
+    border: 3px solid red;
     top: 0;
     z-index: 999;
     background-color: transparent;
 }
 
-.navbar2 {
-    position: absolute;
-    left: 41.5%;
-    margin: -30px 0 0;
-}
+
 
 .navigationlink {
-    margin: 0 auto;
-}
-
-.navigationlink ul {
-    text-align: right;
-    list-style: none;
+    border: 3px solid red;
+    display: flex;
+    justify-content: space-between;
     padding: 0;
-    margin: 39px 50px 71px;
+    margin: 40px 50px 40px;
 }
 
-.navigationlink ul li {
-    float: none;
-    display: inline-block;
+.navigationlinkL {
+    border: 3px solid red;
+    display: flex;
+
 }
 
-.navigationlink ul li:nth-child(1) {
-    float: left;
-}
-
-.navigationlink ul li:nth-child(2) {
-    float: left;
-}
-
-.navigationlink ul li:nth-child(3) {
-    float: left;
+.navigationlinkR {
+    border: 3px solid red;
+    display: flex;
+    
 }
 
 .navigationlink1 {
+
     font-family: sans-serif;
     margin: 5px;
     text-decoration: none;
@@ -378,6 +368,13 @@ span {
     font-weight: bold;
 }
 
+.container1 {
+    display: flex;
+    border: 3px solid red;
+    gap: 1em;
+
+}
+
 .contacttitle {
     font-size: 40px;
     font-weight: bold;
@@ -387,17 +384,13 @@ span {
 .contacttext {
     color: white;
     position: absolute;
-    left: 350px;
-    right: 100px;
-    top: 150px;
+
     font-family: sans-serif;
     font-size: 20px;
 }
 
-#gmap {
-    position: absolute;
-    top: 300px;
-    padding: 16px;
-    margin-top: -22px;
-    left: 350px;
+.category {
+    display: flex;
+    border: 3px solid red;
+
 }
