@@ -315,19 +315,14 @@ span {
 }
 
 .aboutimage {
-    position: absolute;
-    top: 200px;
-    padding: 16px;
-    margin-top: -22px;
-    left: 450px;
+    
+    
 }
 
 .abouttext {
     color: white;
-    position: absolute;
-    left: 350px;
-    right: 100px;
-    top: 650px;
+    
+    
     font-family: sans-serif;
 }
 
@@ -346,9 +341,7 @@ span {
 .servicetext {
     color: white;
     
-    left: 350px;
-    right: 100px;
-    top: 150px;
+    
     font-family: sans-serif;
     font-size: 17px;
 }
