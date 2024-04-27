@@ -32,7 +32,7 @@ body {
 .navigationlinkR {
     border: 3px solid red;
     display: flex;
-    
+
 }
 
 .navigationlink1 {
@@ -375,6 +375,26 @@ span {
 
 }
 
+.contact {
+    border: 3px solid red;
+    display: flex;
+    flex-grow: 1;
+
+
+}
+
+.map {
+    display: flex;
+    width: 100%;
+    border: 3px solid red;
+}
+
+.autoiframe {
+    
+    
+    flex-grow: 1;
+}
+
 .contacttitle {
     font-size: 40px;
     font-weight: bold;
@@ -383,14 +403,8 @@ span {
 
 .contacttext {
     color: white;
-    position: absolute;
-
+    border: 3px solid red;
     font-family: sans-serif;
     font-size: 20px;
 }
 
-.category {
-    display: flex;
-    border: 3px solid red;
-
-}
