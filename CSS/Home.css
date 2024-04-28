@@ -9,8 +9,14 @@ body {
 
     border: 3px solid red;
     top: 0;
-    z-index: 999;
+    
     background-color: transparent;
+}
+
+.navbar2 {
+
+    border: 3px solid red;
+   
 }
 
 .navigationlink {
@@ -79,6 +85,7 @@ body {
     text-decoration: none;
     color: #ffa500;
     font-family: sans-serif;
+    z-index: 1;
 }
 
 .a1:hover {
@@ -98,7 +105,6 @@ body {
     font-weight: bolder;
     width: 200px;
     cursor: pointer;
-    transition: all 0.7s;
     overflow: hidden;
     border-radius: 10px;
     margin: 10px;
@@ -106,7 +112,7 @@ body {
 
 span {
     transition: all 0.7s;
-    z-index: -1;
+    z-index: -2;
 }
 
 .category-list-item .first {
