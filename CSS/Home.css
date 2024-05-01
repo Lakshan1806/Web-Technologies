@@ -3,12 +3,10 @@ body {
     background-image: url("/IMAGE/Background.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-size: cover;
 }
 
-.navbar1 {
-    top: 0;
-    background-color: transparent;
-}
+
 
 
 .navigationlink {
@@ -88,8 +86,8 @@ body {
     padding: 10px;
     font-size: 12px;
     position: sticky;
-    position: -webkit-sticky;
-    background-color: black;
+    background-color: #000;
+    /*backdrop-filter: blur(10px);*/
     color: #ffa500;
     text-transform: uppercase;
     list-style: none;
