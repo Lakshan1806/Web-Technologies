@@ -1,20 +1,17 @@
 .contact {
-    
     display: flex;
     flex-grow: 1;
-
-
+    gap: 2em;
+    
 }
 
 .map {
     display: flex;
     width: 100%;
-    
+    margin: 20px;
 }
 
 .autoiframe {
-    
-    
     flex-grow: 1;
 }
 
@@ -29,4 +26,3 @@
     font-family: sans-serif;
     font-size: 20px;
 }
-
