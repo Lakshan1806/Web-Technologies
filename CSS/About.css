@@ -27,3 +27,10 @@
 .container1 {
     flex-direction: column;
 }
+
+.aboutus {
+    color: #ffa500;
+    display: block;
+    text-align: center;
+    font-size: 40px;
+}
