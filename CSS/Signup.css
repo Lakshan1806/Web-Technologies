@@ -140,3 +140,8 @@ p {
     text-decoration: none;
     font-weight: bold;
 }
+
+#sign{
+    display: flex;
+    flex-direction: column;
+}
