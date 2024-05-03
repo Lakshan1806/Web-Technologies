@@ -30,6 +30,8 @@
 
 .aboutus {
     color: #ffa500;
+    text-transform: uppercase;
+    font-weight:bold ;
     display: block;
     text-align: center;
     font-size: 40px;
