@@ -16,11 +16,6 @@
     flex-grow: 1;
 }
 
-.contacttitle {
-    font-size: 40px;
-    font-weight: bold;
-    text-transform: uppercase;
-}
 
 .contacttext {
     color: white;
