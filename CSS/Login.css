@@ -6,6 +6,16 @@ body {
     background-attachment: fixed;
 }
 
+
+.logo_container {
+    margin: 0 auto;
+}
+
+.logo_container img{
+    display: block; 
+    margin: 0 auto; 
+}
+
 form {
     width: 300px;
     background-color: black;
