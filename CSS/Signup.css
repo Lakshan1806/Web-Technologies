@@ -203,3 +203,7 @@ p {
     display: flex;
     flex-direction: column;
 }
+
+#signup:hover {
+    cursor: pointer;
+}
