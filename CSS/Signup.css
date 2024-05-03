@@ -16,6 +16,16 @@ form {
     color: #ffa500;
 }
 
+
+.logo_container {
+    margin: 0 auto;
+}
+
+.logo_container img{
+    display: block; 
+    margin: 0 auto; 
+}
+
 label {
     margin-bottom: 5px
 }
