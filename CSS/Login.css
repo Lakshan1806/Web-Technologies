@@ -20,6 +20,58 @@ body {
     margin: 0 auto; 
 }
 
+.footer1 {
+    margin: 0 auto;
+}
+
+.footer1 ul {
+    text-align: right;
+    list-style: none;
+    padding: 0;
+    margin: 39px 50px 7px;
+}
+
+.footer1 ul li {
+    float: none;
+    display: inline-block;
+}
+
+.footertext {
+    color: #ffa500;
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 5px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+
+.sociallink1,
+.sociallink2 {
+    margin: 5px;
+    padding: 5px;
+    border: 3px solid #ffa500;
+    border-radius: 10px;
+    color: #ffa500;
+}
+
+.sociallink1:hover {
+    color: #1a6ed8;
+    background-color: white;
+}
+
+.sociallink2:hover {
+    color: #eb0cb7;
+    background-color: white;
+}
+
+.container1 {
+    display: flex;
+    gap: 1em;
+
+}
+
 form {
     width: 300px;
     background-color: black;
@@ -41,8 +93,8 @@ h1 {
 .textspace {
     border-radius: 5px;
     border: 3px solid #ffa500;
-    width: 280px;
-    height: 25px;
+    width: 270px;
+    height: 41px;
 }
 
 .texttitle {
