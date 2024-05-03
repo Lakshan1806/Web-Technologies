@@ -6,16 +6,12 @@ body {
     background-attachment: fixed;
 }
 
-form {
-    width: 300px;
-    background-color: black;
-    padding: 15px 40px 40px 40px;
-    border: 3px solid #ffa500;
-    margin: 50px auto 0;
-    border-radius: 10px;
-    color: #ffa500;
-}
 
+#logo1{
+    width: 250px;
+    height: 77px;
+   
+}
 
 .logo_container {
     margin: 0 auto;
@@ -24,6 +20,16 @@ form {
 .logo_container img{
     display: block; 
     margin: 0 auto; 
+}
+
+form {
+    width: 300px;
+    background-color: black;
+    padding: 15px 40px 40px 40px;
+    border: 3px solid #ffa500;
+    margin: 50px auto 0;
+    border-radius: 10px;
+    color: #ffa500;
 }
 
 label {
