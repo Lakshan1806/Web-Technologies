@@ -21,10 +21,11 @@ body {
     justify-content: center;
     padding: 0;
     margin: 25px 49%;
+    
 }
 
 .navigationlink1 {
-
+    
     font-family: sans-serif;
     margin: 5px;
     text-decoration: none;
@@ -137,7 +138,7 @@ h1 {
     padding: 12px;
 }
 
-#login:hover{
+#login:hover {
     cursor: pointer;
 }
 

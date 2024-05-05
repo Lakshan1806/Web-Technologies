@@ -79,8 +79,6 @@ body {
     font-family: sans-serif;
 }
 
-
-
 .category-list-item:hover .a1 {
     color: #000;
     transition: 1s;
@@ -217,5 +215,4 @@ span {
 .container1 {
     display: flex;
     gap: 1em;
-
 }
