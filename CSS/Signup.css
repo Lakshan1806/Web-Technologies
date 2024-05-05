@@ -4,13 +4,13 @@ body {
     background-image: url("../Image/Background.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
+    margin: 0;
 }
 
 
 #logo1{
     width: 250px;
     height: 77px;
-   
 }
 
 .logo_container {
@@ -21,7 +21,6 @@ body {
     display: block; 
     margin: 0 auto; 
 }
-
 
 .navigationlink {
     display: block;
@@ -74,7 +73,6 @@ body {
     text-decoration: none;
     text-transform: uppercase;
 }
-
 
 .sociallink1,
 .sociallink2 {
@@ -152,8 +150,6 @@ h1 {
     padding: 0%;
     cursor: pointer;
 }
-
-
 
 #fb {
     display: block;

@@ -1,13 +1,11 @@
 let slideIndex = 1;
 showSlides(slideIndex);
 
-// Function to advance slides automatically
 function autoSlide() {
     plusSlides(1);
 }
 
-// Set a timer to call autoSlide every 5 seconds (adjust as needed)
-setInterval(autoSlide, 5000); // Change slide every 5 seconds
+setInterval(autoSlide, 5000);
 
 function plusSlides(n) {
     showSlides(slideIndex += n);

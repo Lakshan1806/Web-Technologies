@@ -4,12 +4,12 @@ body {
     background-image: url("../Image/Background.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
+    margin: 0;
 }
 
 #logo1 {
     width: 250px;
     height: 77px;
-
 }
 
 .logo_container {
@@ -21,11 +21,9 @@ body {
     justify-content: center;
     padding: 0;
     margin: 25px 49%;
-    
 }
 
 .navigationlink1 {
-    
     font-family: sans-serif;
     margin: 5px;
     text-decoration: none;
@@ -73,7 +71,6 @@ body {
     text-decoration: none;
     text-transform: uppercase;
 }
-
 
 .sociallink1,
 .sociallink2 {
@@ -154,8 +151,6 @@ h1 {
     border-radius: 25px;
     padding: 0%;
 }
-
-
 
 #fb {
     display: block;
