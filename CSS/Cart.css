@@ -1,9 +1,9 @@
 .container3 {
     display: flex;
-    height: 70vh;
+    height: 75vh;
 }
 
-.contact {
+.cart1 {
     display: flex;
     flex-grow: 1;
     gap: 2em;
@@ -43,7 +43,7 @@
 
 
 
-.contacttext {
+.carttext {
     display: flex;
     font-family: sans-serif;
     font-size: 15px;
@@ -76,7 +76,7 @@ h1 {
     font-size: 12px;
 }
 
-#submit1 {
+#payment {
     text-align: center;
     margin: 5px;
     border: 3px solid #ffa500;
@@ -85,11 +85,11 @@ h1 {
     padding: 12px;
 }
 
-#submit1:hover {
+#payment:hover {
     cursor: pointer;
 }
 
-#submittext {
+#paymenttext {
     font-family: sans-serif;
     text-decoration: none;
     font-weight: bold;
@@ -102,15 +102,6 @@ h1 {
     padding: 0%;
     cursor: pointer;
 }
-
-.form-control {
-    border-radius: 5px;
-    border: 3px solid #ffa500;
-    width: 280px;
-    height: 25px;
-    padding-bottom: 40px;
-}
-
 
 .paymentoption{
     margin: 0 auto;
@@ -125,13 +116,6 @@ h1 {
     flex-direction: column;
     gap: 2em;
 }
-
-.contact1 {
-    display: flex;
-    flex-direction: column;
-}
-
-
 
 .reset {
     display: flex;
