@@ -11,8 +11,8 @@ document.addEventListener('DOMContentLoaded', () => {
           <div class="item-content">
             <img src="${item.image}" alt="${item.name}" class="item-image">
             <div class="item-info">
-              <p class="item-name">Name: ${item.name}</p>
-              <p class="item-price">Price: ${item.price}</p>
+              <p class="item-name">Name : ${item.name}</p>
+              <p class="item-price">Price : ${item.price}</p>
             </div>
           </div>
         `;
