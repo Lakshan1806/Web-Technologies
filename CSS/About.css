@@ -5,6 +5,15 @@
     font-family: sans-serif;
 }
 
+.h2{
+    color: #ffa500;
+    text-transform: uppercase;
+    font-weight:bold ;
+    display: block;
+    text-align: center;
+    font-size: 40px;
+}
+
 .abouttitle {
     font-size: 40px;
     font-weight: bold;
