@@ -31,11 +31,13 @@ document.addEventListener('DOMContentLoaded', () => {
 
         document.getElementById('subtotal-container').innerHTML = `
         <div class="subtotal-info">
-          <p>Subtotal: ${formattedSubtotal}</p>
+          <p class="total">Subtotal: ${formattedSubtotal}</p>
         </div>
       `;
     } else {
-        document.getElementById('cart-items').innerHTML = '<p>Your cart is empty.</p>';
+        document.getElementById('cart-items').innerHTML = '<p class="empty">Your cart is empty.</p>';
+        document.getElementById('subtotal-container').innerHTML = '<p class="total">Subtotal : LKR 0.00</p>';
+        
     }
 });
 

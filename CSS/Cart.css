@@ -1,7 +1,8 @@
-.container3{
+.container3 {
     display: flex;
     height: 70vh;
 }
+
 .contact {
     display: flex;
     flex-grow: 1;
@@ -9,7 +10,8 @@
     margin: 0px 60px;
     height: 100%;
 }
-.cart{
+
+.cart {
     display: flex;
     flex-direction: column;
     flex-grow: 1;
@@ -24,8 +26,8 @@
     flex-direction: column;
     position: relative;
     width: 100%;
-    
-    
+
+
 }
 
 #cart-items {
@@ -122,13 +124,13 @@ h1 {
 
 
 
-.reset{
+.reset {
     display: flex;
     justify-content: center;
     padding: 10px;
 }
 
-#reset-cart{
+#reset-cart {
     font-family: sans-serif;
     text-decoration: none;
     font-weight: bold;
@@ -142,13 +144,38 @@ h1 {
     cursor: pointer;
 }
 
-.item-content{
+.item-content {
     display: flex;
     gap: 10em;
     border-radius: 5px;
 }
 
-.item-image{
+.item-image {
     width: 20%;
     height: auto;
+}
+
+.cartreset {
+    font-family: sans-serif;
+    font-size: 15px;
+    color: #ffa500;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+}
+.empty{
+    font-family: sans-serif;
+    font-size: 15px;
+    color: #ffa500;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+}
+
+.total{
+    font-family: sans-serif;
+    font-size: 15px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
 }

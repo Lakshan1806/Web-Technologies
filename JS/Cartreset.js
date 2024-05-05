@@ -2,7 +2,7 @@ document.getElementById('reset-cart').addEventListener('click', () => {
     localStorage.removeItem('cart');
 
     document.getElementById('cart-items').innerHTML = '<p class="cartreset">Your cart has been reset.</p>';
-    document.getElementById('subtotal-container').innerHTML = '<p>Subtotal: 0 LKR</p>';
+    document.getElementById('subtotal-container').innerHTML = '<p class="total">Subtotal : LKR 0.00</p>';
 
     let formattedSubtotal = new Intl.NumberFormat('en-LK', {
         style: 'currency',
@@ -12,7 +12,7 @@ document.getElementById('reset-cart').addEventListener('click', () => {
 
     document.getElementById('subtotal-container').innerHTML = `
   <div class="subtotal-info">
-    <p>Subtotal: ${formattedSubtotal}</p>
+    <p class="total">Subtotal : ${formattedSubtotal}</p>
   </div>
 `;
 });
