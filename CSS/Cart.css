@@ -111,6 +111,15 @@ h1 {
     padding-bottom: 40px;
 }
 
+
+.paymentoption{
+    margin: 0 auto;
+}  
+
+.paymentoption img{
+    width: 100%;
+}
+
 .container2 {
     display: flex;
     flex-direction: column;
