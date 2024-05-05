@@ -16,7 +16,6 @@ body {
     margin: -30px 100px -0px 0px;
 }
 
-
 .navigationlink {
     display: flex;
     justify-content: space-between;
@@ -34,7 +33,6 @@ body {
 }
 
 .navigationlink1 {
-
     font-family: sans-serif;
     margin: 5px;
     text-decoration: none;
@@ -79,7 +77,6 @@ body {
     text-decoration: none;
     color: #ffa500;
     font-family: sans-serif;
-
 }
 
 
